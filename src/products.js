@@ -1,5 +1,4 @@
-this.state = {
-    products: [
+export const PRODUCTS = [
         {
             id: 0,
             name: 'Fresh Black Tea',
@@ -28,5 +27,4 @@ this.state = {
             price: 4.00
         
         }
-    ],
-};
+    ];
