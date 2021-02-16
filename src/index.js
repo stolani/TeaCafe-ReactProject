@@ -8,6 +8,7 @@ import 'typeface-roboto';
 import 'typeface-open-sans';
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap-social/bootstrap-social.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import App from './App';
 
 
