@@ -55,14 +55,14 @@ class Contact extends Component {
           <div className="col-sm-4">
             <h5>Our Address</h5>
             <address>
-              1 Nucamp Way<br />
-              Seattle, WA 98001<br />
-              U.S.A.
+            10101 Tea Heaven Road<br />
+            Germantown,MD 20874<br />
+            U.S.A.
             </address>
           </div>
           <div className="col">
             <a role="button" className="btn btn-link" href="tel:+12065551234">
-              <i className="fa fa-phone" /> 1-206-555-1234
+              <i className="fa fa-phone" /> 1-123-456-7890
             </a>
             <br />
             <a
@@ -70,7 +70,7 @@ class Contact extends Component {
               className="btn btn-link"
               href="mailto:fakeemail@fakeemail.co"
             >
-              <i className="fa fa-envelope-o" /> campsites@nucamp.co
+              <i className="fa fa-envelope-o" /> teashopcafe@yahoo.co
             </a>
           </div>
         </div>

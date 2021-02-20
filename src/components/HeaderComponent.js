@@ -43,7 +43,7 @@ handleLogin(event) {
             <div className="row">
               <div className="col">
                 <h1>Tea Shop Cafe</h1>
-                <h2>a better way to camp</h2>
+                <h2>The haven for tea lovers</h2>
               </div>
             </div>
           </div>
@@ -54,9 +54,9 @@ handleLogin(event) {
             <NavbarBrand className="mr-auto" href="/">
               <img
                 src='/assets/images/tea-logo.jpg'
-                height="30"
-                width="30"
-                alt="NuCamp Logo"
+                height="50"
+                width="150"
+                alt="Tea Shop Cafe Logo"
               />
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} />
@@ -80,34 +80,59 @@ handleLogin(event) {
               </Nav>
                <span className="navbar-text ml-auto">
                     <Button outline onClick={this.toggleModal}>
-                      <i className="fa fa-sign-in fa-lg" /> Login
+                      <i className="fa fa-sign-in fa-lg" />Take Our Survey
                     </Button>
                 </span>
             </Collapse>
           </div>
         </Navbar>
         <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                    <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
+                    <ModalHeader toggle={this.toggleModal}>Choose 2 New Products</ModalHeader>
                     <ModalBody>
                     <Form onSubmit={this.handleLogin}>
-                            <FormGroup>
-                                <Label htmlFor="username">Username</Label>
-                                <Input type="text" id="username" name="username"
-                                    innerRef={input => this.username = input} />
-                            </FormGroup>
-                            <FormGroup>
-                                <Label htmlFor="password">Password</Label>
-                                <Input type="password" id="password" name="password"
-                                    innerRef={input => this.password = input} />
+                            <FormGroup check>
+                                <Label check>
+                                    <Input type="checkbox" name="remember"
+                                        innerRef={input => this.remember = input} />
+                                    Matcha Tea
+                                </Label>
                             </FormGroup>
                             <FormGroup check>
                                 <Label check>
                                     <Input type="checkbox" name="remember"
                                         innerRef={input => this.remember = input} />
-                                    Remember me
+                                    Coconut Macaroons
                                 </Label>
                             </FormGroup>
-                            <Button type="submit" value="submit" color="primary">Login</Button>
+                            <FormGroup check>
+                                <Label check>
+                                    <Input type="checkbox" name="remember"
+                                        innerRef={input => this.remember = input} />
+                                     Darjeeling Tea
+                                </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                                <Label check>
+                                    <Input type="checkbox" name="remember"
+                                        innerRef={input => this.remember = input} />
+                                    Dark Chocolate Cupcake
+                                </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                                <Label check>
+                                    <Input type="checkbox" name="remember"
+                                        innerRef={input => this.remember = input} />
+                                    Walnut Banana Bread
+                                </Label>
+                            </FormGroup>
+                            <FormGroup check>
+                                <Label check>
+                                    <Input type="checkbox" name="remember"
+                                        innerRef={input => this.remember = input} />
+                                    Earl Grey Tea
+                                </Label>
+                            </FormGroup>
+                            <Button type="submit" value="submit" color="primary">Submit</Button>
                         </Form>
                     </ModalBody>
                 </Modal>

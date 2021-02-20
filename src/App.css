@@ -13,13 +13,14 @@ h1, h2, h3, .card-body>.card-title {
 h2 {
   color: #3046C5;
 }
+h3 {
+  color: #FFF;
+}
 .carousel-wrapper {
   background-color: rgba(0, 0, 0, 0.5); 
   border: solid #5637dd; 
 }
   
-
-
 .card-img-overlay .card-title {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
@@ -31,7 +32,7 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background-image: linear-gradient(#87ceeb, white);
   padding: 20px 0;
 }
 

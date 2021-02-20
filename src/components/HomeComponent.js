@@ -8,12 +8,15 @@ function Home () {
     <Carousel infiniteLoop useKeyboardArrows autoPlay>
         <div>
             <img src='/assets/images/tea-lover.jpg'/>
+            <h3>Welcome home tea lovers</h3>
         </div>
         <div>
             <img src='/assets/images/tea-treats.jpg'/>
+            <h3>We bake delicious treats everyday</h3>
         </div>
         <div>
             <img src='/assets/images/tea-cup.jpg'/>
+            <h3>Choose from a wide variety of tea products</h3>
         </div>
     </Carousel>
 </div>

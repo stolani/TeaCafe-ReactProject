@@ -4,7 +4,7 @@ export const CAROUSELS = [
         name: 'Welcome Home',
         image: '/assets/images/tea-lover.jpg',
         featured: false,
-        tagline: 'A haven for tea lovers'
+        tagline: 'Welcome home tea lovers'
        
     },
     {
