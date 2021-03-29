@@ -10,8 +10,8 @@ import { connect } from 'react-redux';
 const mapStateToProps = state => {
   return {
       carousels: state.carousels,
-      products: state.products
-      
+      products: state.products,
+     
   };
 };
 
